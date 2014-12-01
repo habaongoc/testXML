@@ -1,0 +1,50 @@
+<Alloy>
+	<Window id="win_productDetail" height="100%" title="Product Detail" layout="vertical" width="100%">
+		<ScrollView id="scrollview" layout="vertical" width="100%" showVerticalScrollIndicator="true" height="100%">
+			
+			<View class="row">
+				<View height="Ti.UI.SIZE">
+					<Label class="title">Item List</Label>
+				</View>
+			</View>
+			<View class="horizontalLine"></View>
+			<View class="view_schedule" layout="vertical" height="Ti.UI.SIZE" top="0" left="10" width="Ti.UI.FILL">
+				
+				<View height="Ti.UI.SIZE" layout="vertical" width="100%">
+					
+					<View height="Ti.UI.SIZE" width="Ti.UI.FILL">
+						<Label class="title" left="0">Item 1</Label>
+						
+						<View layout="horizontal" height="Ti.UI.SIZE" width="Ti.UI.SIZE" right="0">
+							<Button title="Confirm" right="10"></Button>
+							<Button title="Request" right="10" width="auto"></Button>
+						</View>
+					
+					</View>
+					<View height="Ti.UI.SIZE" width="100%">
+						<Label class="title">Date: 22/11/2014 06:00-15:00</Label>
+					</View>
+				</View>
+				<View class="horizontalLine"></View>
+		
+				<View height="Ti.UI.SIZE" layout="vertical" width="100%">
+					
+					<View height="Ti.UI.SIZE" width="Ti.UI.FILL">
+						<Label class="title" left="0">Item 2</Label>
+						
+						<View layout="horizontal" height="Ti.UI.SIZE" width="Ti.UI.SIZE" right="0">
+							<Button title="Confirm" right="10"></Button>
+							<Button title="Request" right="10" width="auto"></Button>
+						</View>
+					
+					</View>
+					<View height="Ti.UI.SIZE" width="100%">
+						<Label class="title">Date: 22/11/2014 06:00-15:00</Label>
+					</View>
+				</View>
+			
+			</View>
+		</ScrollView>	
+		<!--<Widget id="fa" src="com.mattmcfarland.fontawesome" />-->
+	</Window>
+</Alloy>

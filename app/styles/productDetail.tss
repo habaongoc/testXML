@@ -1,0 +1,48 @@
+"Window":{
+	barColor: "#5899F7",
+	navTintColor:"White",
+	backButtonTitle:"",
+	translucent:false,
+	titleAttributes:{
+		color:"White"
+	},
+	backgroundColor:"White"
+}
+".horizontalLine":{
+	backgroundColor:"#CCCCCC",
+	height:"1",
+	width:"100%"
+}
+".row":{
+	height:Ti.UI.SIZE,
+	top:10,
+	bottom:10
+}
+".info":{
+	font:{
+		fontSize:"15"
+	}
+}
+".title":{
+	left:5
+}
+".content":{
+	left:"50%"
+}
+"#imgProduct":{
+	 width:"60",
+	 height:"60",
+	 left:"5"	 
+}
+"#productName":{
+	font:{
+		fontWeight:"bold",
+		fontSize:"20"
+	}
+}
+".productDetail":{
+	left:5	,
+	font:{
+		fontSize:"13"
+	}
+}
