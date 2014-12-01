@@ -1,5 +1,5 @@
 <Alloy>
-	<Window id="win_productDetail" height="100%" title="Product Detail" layout="vertical" width="100%">
+	<Window id="win_productDetail" height="100%" title="Tab 1" layout="vertical" width="100%">
 		<ScrollView id="scrollview" layout="vertical" width="100%" showVerticalScrollIndicator="true" height="100%">
 			
 			<View class="row">
